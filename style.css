@@ -402,6 +402,7 @@
 
   .me-img {
     width: 100%;
+    padding-left: 52px;
     height: auto;
   }
 
@@ -420,3 +421,6 @@
     height: 100px;
   }
 }
+
+
+
