@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+      background:  rgb(1, 10, 18);
  }
 
  
@@ -297,7 +297,7 @@
     flex-direction: column-reverse; /* 👈 Inverser l’ordre image / texte */
     gap: 30px;
     text-align: center;
-    margin-top: 15%;
+    margin-top: 30%;
     padding: 120px 5% 10px;
     color: white; /* 👈 Texte noir pour mobile */
   
@@ -377,5 +377,46 @@
 
   .bars-animation {
     display: none;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .home {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .home-info h1 {
+    font-size: 28px;
+  }
+
+  .home-info h4 {
+    font-size: 16px;
+  }
+
+  .home-info p {
+    font-size: 14px;
+  }
+
+  .me-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .me-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  .home-info a {
+    font-size: 14px;
+    padding: 0.5rem 1rem;
+  }
+
+  .bars-animation {
+    height: 100px;
   }
 }
